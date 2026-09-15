@@ -1,0 +1,23 @@
+{
+  "name": "weitoutiao-web",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "vue": "^3.5.0",
+    "vue-router": "^4.4.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.1.0",
+    "vite": "^5.4.0"
+  },
+  "description": "微头条 · 网页 B/S 前端（Vue 3 + Vite + vue-router :5173，/api 代理到 server-nestjs :3000）",
+  "engines": {
+    "node": ">=20.0.0"
+  }
+}
